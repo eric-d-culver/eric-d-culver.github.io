@@ -1,7 +1,8 @@
 
 div {
-	transition: all 0.5s ease
-	animation: foo 0.5s infinite
+	background-color: blue;
+	transition: all 0.5s ease;
+	animation: foo 0.5s infinite;
 }
 
 div:hover {
