@@ -1,14 +1,14 @@
 
-div#hover {
+div.hover {
 	background-color: blue;
 	transition: all 5s ease;
 }
 
-div#hover:hover {
+div.hover:hover {
 	background-color: red;
 }
 
-div#animate {
+div.animate {
 	background-color: blue;
 	animation: foo 5s infinite;
 }
