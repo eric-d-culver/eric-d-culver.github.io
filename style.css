@@ -1,12 +1,16 @@
 
-div {
+div#hover {
 	background-color: blue;
 	transition: all 5s ease;
-	animation: foo 5s infinite;
 }
 
-div:hover {
+div#hover:hover {
 	background-color: red;
+}
+
+div#animate {
+	background-color: blue;
+	animation: foo 5s infinite;
 }
 
 @keyframes foo {
