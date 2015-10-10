@@ -27,6 +27,7 @@ div.animate {
 	}
 
 	20% {
+		background-color: green;
 		transform: skewY(90deg);
 	}
 
