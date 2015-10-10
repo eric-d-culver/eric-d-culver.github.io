@@ -11,10 +11,14 @@ div:hover {
 
 @keyframes foo {
 	0% {
-		background-color: azure;
+		background-color: blue;
+	}
+
+	50% {
+		background-color: green;
 	}
 
 	100% {
-		background-color: 00f200;
+		background-color: blue;
 	}
 }
