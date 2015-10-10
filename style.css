@@ -1,5 +1,6 @@
 
 div.hover {
+	width: 120px;
 	background-color: blue;
 	position: relative;
 	transition: all 5s ease;
