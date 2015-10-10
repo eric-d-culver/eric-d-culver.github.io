@@ -2,7 +2,7 @@
 div.hover {
 	width: 120px;
 	background-color: blue;
-	position: relative;
+	position: center relative;
 	transition: all 5s ease;
 }
 
@@ -13,7 +13,7 @@ div.hover:hover {
 div.animate {
 	width: 120px;
 	background-color: blue;
-	position: relative;
+	position: center relative;
 	z-index: -1;
 	animation: foo 5s infinite;
 }
