@@ -16,13 +16,24 @@ div.animate {
 @keyframes foo {
 	0% {
 		background-color: blue;
+		transform: skewY(0deg);
+	}
+
+	10% {
+		transform: skewY(10deg);
+	}
+
+	20% {
+		transform: skewY(90deg);
 	}
 
 	50% {
 		background-color: green;
+		transform: skewY(100deg);
 	}
 
 	100% {
 		background-color: blue;
+		transform: skewY(140deg);
 	}
 }
