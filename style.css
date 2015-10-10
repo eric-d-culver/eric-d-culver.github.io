@@ -1,6 +1,7 @@
 
 div.hover {
 	background-color: blue;
+	position: relative;
 	transition: all 5s ease;
 }
 
@@ -10,6 +11,8 @@ div.hover:hover {
 
 div.animate {
 	background-color: blue;
+	position: relative;
+	z-index: -1;
 	animation: foo 5s infinite;
 }
 
@@ -29,11 +32,11 @@ div.animate {
 
 	50% {
 		background-color: green;
-		transform: skewY(100deg);
+		transform: skewY(140deg);
 	}
 
 	100% {
 		background-color: blue;
-		transform: skewY(140deg);
+		transform: skewY(180deg);
 	}
 }
