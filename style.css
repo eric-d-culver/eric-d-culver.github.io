@@ -1,0 +1,19 @@
+
+div {
+	transition: all 0.5s ease
+	animation: foo 0.5s infinite
+}
+
+div:hover {
+	background-color: red;
+}
+
+@keyframes foo {
+	0% {
+		background-color: azure;
+	}
+
+	100% {
+		background-color: 00f200;
+	}
+}
