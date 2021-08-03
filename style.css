@@ -1,4 +1,22 @@
 
+body {
+	background-color: #11DAB0;
+}
+
+h1 {
+	text-align: center;
+}
+
+h3 {
+	text-align: left;
+}
+
+.centered_image {
+	text-align: center;
+	margin: 10px auto 20px;
+	display: block;
+}
+
 div.hover {
 	width: 120px;
 	background-color: blue;
