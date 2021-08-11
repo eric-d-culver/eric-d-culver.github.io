@@ -1,20 +1,27 @@
 
 body {
-	background-color: #127622;
+	background-color: #CCEEFF;
 }
 
 h1 {
 	text-align: center;
 }
 
+h2 {
+	text-align: center;
+	color: #127622;
+}
+
 h3 {
 	text-align: left;
+	color: #127622;
 }
 
 .centered_image {
 	text-align: center;
 	margin: 10px auto 20px;
 	display: block;
+	border: 100px solid #555555;
 }
 
 div.hover {
