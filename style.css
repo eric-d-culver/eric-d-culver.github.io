@@ -47,6 +47,10 @@ div.animate {
 	animation: foo 5s infinite;
 }
 
+div.githubLink {
+	text-align: right;
+}
+
 @keyframes foo {
 	0% {
 		background-color: blue;
